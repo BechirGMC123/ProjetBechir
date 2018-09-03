@@ -1,0 +1,125 @@
+ 
+img {
+   
+    width: 100%;
+    height: auto;
+    background-position: center;
+}
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.ul li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 40px 20px;
+    text-decoration: none;
+     float: left;
+     margin-top: top;
+}
+
+.ul li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color:blue;
+}
+.mySlides {display:none;}
+div.gallery {
+    margin: 2px;
+    border: 10px solid #ccc;
+    width: 300px; 
+    display: inline-block;
+    background-color: white;
+   
+}
+div.gallery:hover {
+    border: 3px solid #777;
+}
+div.gallery img {
+    width: 100%;
+    height: 200px;
+}
+div.desc {
+    padding: 40px;
+    text-align: center;
+    text-transform: Fontfamily;
+    text-decoration: font-weight;
+
+}
+h1 {
+    color: green;
+}
+.kkk {
+    background-color: lightgrey;
+    width: 1000px;
+    border: px solid blue;
+    padding: 60px;
+    margin: 40px;
+    text-align: center;
+    text-transform: Font-family;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    margin: 4px 2px;
+    cursor: pointe:20px;
+}
+
+.button4 {padding: 30px 16px;}
+h2,h3 {
+    text-align: center;
+    text-transform: uppercase;
+    color:blue;
+}
+form {        float: left;
+   padding: 20px;
+   width: 70%;
+   background-color: #f1f1f1;
+   height: 800px; /* only for demonstration, should be removed */
+
+}
+section
+{
+width: 60%;
+   margin-right: 20%;
+   margin-left: 20%;
+}
+section:after {
+   content: "";
+   display: table;
+   clear: both;
+
+
+}
+h4{
+    text-align: left;
+}
+.div4{border: none;
+    color: white;
+    text-align: center;
+     font-size: 50px;
+
+}
+
+.text{
+    font-family: "Times New Roman", Times, serif;
+}
+body { 
+    background: lightblue ;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
